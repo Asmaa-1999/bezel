@@ -1,0 +1,293 @@
+:root
+{
+    --main-color: #00c3da;
+}
+.color-maim
+{
+    background-color: #00c3da;;
+}
+.navbar
+{
+    background-color: transparent;
+}
+
+.navbar-dark .navbar-nav 
+{
+    padding-right: 3rem;
+
+}
+.navbar-dark .navbar-nav .nav-link {
+
+    color: white;
+    transform: all 1s;
+}
+
+.navbar .navbar-nav li:hover
+{
+    opacity:0.5;
+}
+.socile
+{
+    position: relative;
+}
+.socile ::after
+{
+ content: "";
+ background-color: white;
+ width: 1px;
+ height: 180%;
+ position: absolute;
+ top:-38%;
+ left: 0%;
+}
+.carousel-item
+{
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.home-layer
+{
+    content: "";
+    position:absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.carousel-caption
+{
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    padding-top: 3rem;
+}
+
+
+.carousel-caption h1
+{
+    font-size: 6rem;
+
+}
+
+
+.slider-btn button
+{
+    padding: 0.8rem;
+    font-size: 0.9rem;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+.slider-btn .btn-1
+{
+    background-color: var(--main-color);
+    border: unset;
+    color: white;
+    transition:background-color 1s ;
+    transition:color 1s ;
+}
+.slider-btn .btn-2
+{
+    border: unset;
+    background-color: transparent;
+    color:white;
+    border: white 0.1rem solid;
+    transition:background-color 1s ;
+    transition:color 1s ;
+}
+.slider-btn .btn-1:hover
+{
+    background-color: #00d5ee;
+    color: white;
+    box-shadow: 0 8px 26px rgb(0 0 0 / 10%);
+}
+.slider-btn .btn-2:hover
+{
+    background-color: white;
+    color: black;
+}
+.carousel-indicators [data-bs-target]
+{
+    height: 2px;
+    transition:background-color 1.5s ;
+    transition:opacity 1.5s ;
+    
+}
+
+.carousel-indicators button:hover
+{
+    background-color:white;
+    opacity: 1;
+}
+
+
+.item-icon button
+{
+    background-color: transparent;
+    color: white;
+    transition: all 1s;
+}
+.item-icon button:hover
+{
+    color: black;
+    background-color: white;
+}
+/**************************section1************************************/
+
+.btn-section1
+{
+    font-size: 0.7rem;  
+}
+.btn-section1:hover  button
+{
+    background-color: black;
+    color: white;
+}
+.animatedtext::after
+{
+    content: "|";
+    animation-name: animatedtext;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    color: var(--main-color);
+}
+@keyframes animatedtext{
+0%{content:"s|" ;}
+3%{content:"so|" ;}
+5%{content:"sof|" ;}
+7%{content:"soft|" ;}
+9%{content:"softw|" ;}
+11%{content:"softwa|" ;}
+15%{content:"softwar|" ;}
+19%{content:"software|" ;}
+23%{content:"softwar|" ;}
+27%{content:"softwa|" ;}
+31%{content:"softw|" ;}
+34%{content:"soft|" ;}
+38%{content:"sof|" ;}
+41%{content:"so|" ;}
+45%{content:"s|" ;}
+48%{content:"|" ;}
+
+50%{content:"a|" ;}
+53%{content:"ap|" ;}
+55%{content:"app|" ;}
+57%{content:"apps|" ;}
+59%{content:"app|" ;}
+61%{content:"ap|" ;}
+65%{content:"a|" ;}
+69%{content:"|" ;}
+
+71%{content:"w|" ;}
+73%{content:"we|" ;}
+75%{content:"web|" ;}
+78%{content:"webs|" ;}
+80%{content:"websi|" ;}
+82%{content:"websit|" ;}
+85%{content:"website|" ;}
+87%{content:"websites|" ;}
+98%{content:"website|" ;}
+90%{content:"websit|" ;}
+92%{content:"websi|" ;}
+94%{content:"webs|" ;}
+96%{content:"web|" ;}
+98%{content:"we|" ;}
+99%{content:"w|" ;}
+100%{content:"|" ;}
+}
+/*************************section3************************/
+.sectionitem1
+{
+    font-size:6rem;
+
+}
+.sectionitem2
+{
+    font-size: 2.5rem;
+}
+.layertext
+{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.layrimg
+{
+    color: white;
+    background-color: rgba(0, 195, 218,0.9);
+    opacity: 0;
+    transition: all 1s;
+    overflow: hidden;
+
+
+}
+.mainitem:hover .layrimg
+{
+    opacity: 1;
+}
+/****************************************************/
+.section3
+{
+    background-color: #1f1f1f;
+    opacity: 0.6;
+    color: white;
+}
+/******************************/
+.sectionitem1
+{
+    font-size:5rem;
+
+}
+.sectionitem2
+{
+    font-size: 2.6rem;
+}
+.iconslist li{
+
+    padding: 0.4rem;
+}
+.prices span{
+    font-size: 1.3rem;
+    font-weight: 400;
+    vertical-align: top;
+}
+.prices p{
+    font-size: 4rem;
+
+}
+.prices ul li
+{
+ padding: 0.6rem;
+}
+.section4 
+
+{
+    background-color: #f7f7f7;
+}
+.prices3
+{
+    transform: scale(1.1);
+}
+.carousel-indicators [data-bs-target]
+{
+    background-color:rgba(0, 0, 0, 0.034);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+
+.carousel-indicators .active
+{
+    background-color: var(--main-color);
+}
+.section5{
+    background-color: #f7f7f7;
+}
